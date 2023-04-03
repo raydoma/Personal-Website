@@ -1,0 +1,15 @@
+html {
+    background-color: #2b2b2b;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+  .links {
+    float:right;
+}
+
+  .links a {
+    text-decoration: none;
+}
+
