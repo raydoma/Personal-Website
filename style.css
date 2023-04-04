@@ -13,20 +13,39 @@ body{
   padding-bottom: 6.74rem;
   box-sizing: inherit;
 }
-main{
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 32px;
-
+header {
+  font-size: 2rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: .5em 1em;
+  box-shadow: 0 2px 4px -2px black; 
 }
+
+  .name{
+    float:left;
+  }
   .page-links {
     float:right;
 }
-
   .page-links a {
     text-decoration: none;
 }
 
+main{
+  width: 80%;
+  margin: 0 auto;
+  /* padding-top: 60px; */
+  min-height: 100vh;
+  padding: 100px 24px 96px;
+  color: #eee;
+}
+/* header::after {
+  display: block;
+  clear: both;
+  content: '';
+} */
+  
   .footer {
     background-color:azure;
     padding: 30px;
