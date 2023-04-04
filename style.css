@@ -34,11 +34,20 @@ header {
   .page-links a {
     text-decoration: none;
 }
-
+ .about_img{
+    width:400px;
+    height:400px;
+    object-fit: cover;
+    object-position: 100%;
+    float: none;
+}
+ .about_page {
+  text-align: center;
+  font-weight: 200;
+ }
 main{
   width: 80%;
   margin: 0 auto;
-  
   min-height: 100vh;
   padding: 100px 24px 96px;
   color: #eee;
