@@ -82,8 +82,26 @@ header::after {
     padding: 10px;
     margin-right: 32px;
   } 
-  .section-img {
-    float:right;
-    margin: -50px 60px 60px 60px;
-    width: px;
+  .project {
+    font-size: 1em;
+    width: calc(100% - 6em);
+    background:whitesmoke;
+    color: #1a0808;
+    margin: 2em auto;
+    padding: 1em;
+
   }
+  .project_name {
+  font-weight: 900;
+  font-size: 2em;
+  margin: 0 0 1em;
+  border-bottom: 1px solid #ccc;
+
+  }
+  .project_img {
+  width: 100%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
