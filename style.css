@@ -14,6 +14,7 @@ body{
   box-sizing: inherit;
 }
 header {
+  background-color: azure;
   font-size: 2rem;
   position: fixed;
   left: 0;
@@ -23,9 +24,11 @@ header {
 }
 
   .name{
+    color: black;
     float:left;
   }
   .page-links {
+    color: black;
     float:right;
 }
   .page-links a {
@@ -35,16 +38,33 @@ header {
 main{
   width: 80%;
   margin: 0 auto;
-  /* padding-top: 60px; */
+  
   min-height: 100vh;
   padding: 100px 24px 96px;
   color: #eee;
 }
-/* header::after {
+section {
+  border-top: 1px solid black;
+}
+
+img{
+  text-decoration: none;
+}
+h1, h2 {
+  font-weight:200;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+
+header::after {
   display: block;
   clear: both;
   content: '';
-} */
+}
   
   .footer {
     background-color:azure;
@@ -62,3 +82,8 @@ main{
     padding: 10px;
     margin-right: 32px;
   } 
+  .section-img {
+    float:right;
+    margin: -50px 60px 60px 60px;
+    width: px;
+  }
