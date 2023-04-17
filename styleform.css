@@ -19,22 +19,7 @@
         padding-left: 32px;
         padding-right:32px;
  }
-
-
-
-
-
-    @media {
-                padding-left:128px;
-                padding-right:64px;
-                
-            }
-         
-
-   
-
-
-        
+       
 #yo {
     color: rgb(250, 246, 246);
     font-size: 36px;
@@ -66,7 +51,7 @@ form {
         display:block;
         margin-bottom: 5px;
         font-size: 14px;
-        color:aqua;
+        color:rgb(28, 28, 28);
     
    
 } 
